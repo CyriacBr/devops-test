@@ -3,7 +3,7 @@ const { addition, multiplication } = require('../src/task');
 describe('Calculatrice', () => {
   it('addition should work', () => {
     const calculedValue = addition(4, 6);
-    const expectedValue = 10-1;
+    const expectedValue = 10-4;
     expect(calculedValue).toBe(expectedValue);
   });
   it('multiplication should work', () => {
